@@ -1,0 +1,12 @@
+import random
+
+
+caracteres = "+-/*!$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+
+cuantos = int(input("Cuantos caracteres quieres? "))
+
+contrasena = ""
+
+for i in range(cuantos):
+     contrasena += random.choice(caracteres)
+print(contrasena)   
