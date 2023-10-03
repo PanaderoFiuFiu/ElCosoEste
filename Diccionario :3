@@ -1,4 +1,11 @@
-if word in meme_dict.keys():
-    # ¿Qué debemos hacer si se encuentra la palabra?
+mex_dict = {
+            "chavo": "Algun joven o adolecente",
+            "chilaquiles": "totopos de maiz bañados en salsa verde o roja",
+            "simon": "afirmacion a algo, si",
+            "chambear": "trabajar, o hacer algun labor",
+            }
+word = input("Escribe una palabra que no entiendas bro: ")       
+if word in mex_dict.keys():
+    print(mex_dict[word])
 else:
-    # ¿Qué hacer si no se encuentra la palabra?
+    print("No se carnal, preguntae a alguen mas")
